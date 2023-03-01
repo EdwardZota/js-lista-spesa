@@ -4,12 +4,12 @@ const arrayList = [
     'carne',
     'mele',
     'carro armato',
-]
+];
 
 
 const lista = document.querySelector('.lista');
 
-let i = 0
+let i = 0;
 
 while (i < arrayList.length) {
     
