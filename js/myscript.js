@@ -3,7 +3,7 @@ const arrayList = [
     'uva',
     'carne',
     'mele',
-    'mandarini',
+    'carro armato',
 ]
 
 
@@ -17,4 +17,21 @@ while (i < arrayList.length) {
     i++;
 }
 
+// parte in più 
 
+const question = document.querySelector('#question');
+
+const buttonDom = document.querySelector('#button');
+
+const answer = document.querySelector('#answer');
+
+
+buttonDom.addEventListener('click',
+    function(){
+        if(question.value == "carro armato"){
+            answer.innerHTML = 'Complimenti, Hai indovinato!';
+        }else{
+            answer.innerHTML = 'Complimenti, Hai sbagliato!';
+        }
+    }
+)
